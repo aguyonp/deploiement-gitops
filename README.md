@@ -2,6 +2,8 @@
 ![Logo](img/gitops-logo.png)
 
 # Introduction
+![Scheme](img/scheme.svg)
+
 Lorsqu'il s'agit de déployer des applications, les développeurs et les équipes opérationnelles (Ops) cherchent toujours des moyens de simplifier le processus et de gagner du temps. C'est là que le déploiement GitOps entre en jeu. Cette approche utilise Git comme source de vérité pour la configuration et la gestion des déploiements d'applications, offrant ainsi un moyen simple et reproductible de déployer vos applications. Dans cet article, nous allons explorer comment le déploiement GitOps vous permet de gagner du temps en simplifiant les déploiements, tant du point de vue des développeurs que des équipes Ops, en utilisant un exemple concret de déploiement d'un conteneur web avec Docker et GitHub Actions.
 
 # Pourquoi gagner du temps avec le déploiement GitOps
