@@ -19,7 +19,7 @@ FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
 COPY style.css /usr/share/nginx/html/style.css
 ```
-**Vous trouverez les fichier index.html et style.css sur le repository git**
+**Vous trouverez les fichiers index.html et style.css sur le repository git**
 
 3. Dans votre Git, créez un fichier de workflow GitHub Actions (par exemple, deploy.yml) pour automatiser le processus de déploiement.
 ```
@@ -58,7 +58,7 @@ jobs:
           docker rm deploiement-gitops || true
           docker run -d -p 80:
 ```
-**Pensez à renseigner vos credentials docker hub en secret de votre repository**
+**Pensez à renseigner vos credentials docker hub en secret dans votre repository**
 
 # Configuration des secrets dans GitHub
 Pour pouvoir utiliser les secrets **DOCKER_USERNAME** et **DOCKER_PASSWORD** dans votre flux de travail GitHub Actions, vous devez les configurer en tant que secrets dans les paramètres de votre référentiel. Voici comment procéder :
