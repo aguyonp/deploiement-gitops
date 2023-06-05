@@ -74,4 +74,4 @@ Pour pouvoir utiliser les secrets **DOCKER_USERNAME** et **DOCKER_PASSWORD** dan
 Maintenant, vos secrets **DOCKER_USERNAME** et **DOCKER_PASSWORD** sont configurés dans les paramètres de votre référentiel et vous pouvez les utiliser dans vos workflows GitHub Actions.
 
 # Tester le conteneur
-[!Deployer](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/aguyonp/deploiement-gitops/main/docker-compose.yml)
+[![Déployer sur Play With Docker](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/aguyonp/deploiement-gitops/main/docker-compose.yml)
