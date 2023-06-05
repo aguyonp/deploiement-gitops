@@ -27,8 +27,8 @@ jobs:
           push: true
           tags: aguyonnet/deploiement-gitops:latest
 
-      - name: Deploy to server
-        run: |
-          docker stop deploiement-gitops || true
-          docker rm deploiement-gitops || true
-          docker run -d -p 80:
+      # - name: Deploy to server
+      #   run: |
+      #     docker stop deploiement-gitops || true
+      #     docker rm deploiement-gitops || true
+      #     docker run -d -p 80:
