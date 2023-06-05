@@ -75,3 +75,8 @@ Maintenant, vos secrets **DOCKER_USERNAME** et **DOCKER_PASSWORD** sont configur
 
 # Tester le conteneur
 [![Déployer sur Play With Docker](https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png)](http://play-with-docker.com/?stack=https://raw.githubusercontent.com/aguyonp/deploiement-gitops/main/docker-compose.yml)
+
+Or run: 
+```
+docker run -d -p 80:80 aguyonnet/deploiement-gitops
+```
