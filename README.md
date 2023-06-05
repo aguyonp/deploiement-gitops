@@ -50,7 +50,8 @@ jobs:
           context: .
           push: true
           tags: aguyonnet/deploiement-gitops:latest
-
+      
+      # You should have docker deamon running
       - name: Deploy to server
         run: |
           docker stop deploiement-gitops || true
