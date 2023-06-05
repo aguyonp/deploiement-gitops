@@ -58,3 +58,17 @@ jobs:
           docker run -d -p 80:
 ```
 **Pensez à renseigner vos credentials docker hub en secret de votre repository**
+
+# Configuration des secrets dans GitHub
+Pour pouvoir utiliser les secrets **DOCKER_USERNAME** et **DOCKER_PASSWORD** dans votre flux de travail GitHub Actions, vous devez les configurer en tant que secrets dans les paramètres de votre référentiel. Voici comment procéder :
+
+1. Accédez à la page principale de votre référentiel GitHub.
+2. Cliquez sur l'onglet "**Settings**" en haut de la page.
+3. Dans la barre latérale gauche, cliquez sur "Secrets".
+4. Cliquez sur le bouton "**New repository secret**" pour ajouter un nouveau secret.
+5. Dans le champ "**Name**", saisissez **DOCKER_USERNAME**.
+6. Dans le champ "**Value**", saisissez votre nom d'utilisateur Docker.
+7. Cliquez sur le bouton "**Add secret**" pour enregistrer le secret.
+8. Répétez les étapes 4 à 7 pour ajouter le secret **DOCKER_PASSWORD**.
+
+Maintenant, vos secrets **DOCKER_USERNAME** et **DOCKER_PASSWORD** sont configurés dans les paramètres de votre référentiel et vous pouvez les utiliser dans vos workflows GitHub Actions.
